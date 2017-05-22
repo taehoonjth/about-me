@@ -1,0 +1,9 @@
+#result {
+  margin-left: 50px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 21px !important;
+  font-weight: 200 !important;
+  line-height: 31.5px !important;
+  border: 2px solid;
+  width: 50%;
+}
