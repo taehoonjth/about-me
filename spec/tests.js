@@ -19,13 +19,13 @@ describe('나의 소개', function() {
       expect(spouseName).to.be.a('string');
     });   
   } else {
-    it('결혼 안했다면 hasBoyOrGrildFriend(이성친구 여부)의 데이터 형은 불리언(boolean)이어야 합니다', function() {
-      expect(hasBoyOrGrildFriend).to.be.a('string');
+    it('결혼 안했다면 hasBoyOrGirlFriend(이성친구 여부)의 데이터 형은 불리언(boolean)이어야 합니다', function() {
+      expect(hasBoyOrGirlFriend).to.be.a('string');
     }); 
   }
-  if (hasBoyOrGrildFriend) {
-    it('이성친구가 있다면 BoyOrGrildFriendName(이성친구의 이름)의 데이터 형은 문자열(string)이어야 합니다', function() {
-      expect(BoyOrGrildFriendName).to.be.a('string');
+  if (hasBoyOrGirlFriend) {
+    it('이성친구가 있다면 hasBoyOrGirldFriend(이성친구의 이름)의 데이터 형은 문자열(string)이어야 합니다', function() {
+      expect(BoyOrGirlFriendName).to.be.a('string');
     });
   }
   it('friendList(친구들 리스트)의 데이터 형은 배열(array)이여야 합니다', function() {

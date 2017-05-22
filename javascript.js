@@ -11,9 +11,9 @@ var isMarried;
 if (isMarried) {
   var spouseName;
 } else {
-  var hasBoyOrGrildFriend;
-  if (hasBoyOrGrildFriend) {
-    var BoyOrGrildFriendName;
+  var hasBoyOrGirlFriend;
+  if (hasBoyOrGirlFriend) {
+    var BoyOrGirlFriendName;
   }
 }
 
