@@ -14,9 +14,6 @@ describe('나의 소개', function() {
   it('isMarried(결혼 했는지)의 데이터 형은 불리언(boolean)이어야 합니다', function() {
     expect(isMarried).to.be.a('boolean');
   });
-  it('', function() {
-    expect();
-  });
   if (isMarried === true) {
     it('결혼했다면 spouseName(배우자 이름)의 데이터 형은 문자열(string)이어야 합니다', function() {
       expect(spouseName).to.be.a('string');
