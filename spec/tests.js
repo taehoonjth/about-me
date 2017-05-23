@@ -50,8 +50,8 @@ describe('나의 소개', function() {
     });
   }
   for (var key in parents) {
-    it('부모님의 생신은 숫자(number)이어야 합니다', function() {
-      expect(parents[key].birthday).to.be.a('number');
+    it('부모님의 생신은 문자열(string)이어야 합니다', function() {
+      expect(parents[key].birthday).to.be.a('string');
     });
   }
 });
