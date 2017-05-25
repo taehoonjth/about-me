@@ -1,9 +1,15 @@
 describe('나의 소개', function() {
+  it('myName의 데이터 형은 문자열(string)이어야 합니다', function() {
+    expect(myName).to.be.a('string');
+  });
+  it('myName의 길이는 0 보다 커야 합니다.', function() {
+    expect(myName).to.not.lengthOf(0);
+  }); 
+  it('thisYear의 데이터 형은 숫자(number)이어야 합니다', function() {
+    expect(thisYear).to.be.a('number');
+  });
   it('age의 데이터 형은 숫자(number)이어야 합니다', function() {
     expect(age).to.be.a('number');
-  });
-  it('name의 데이터 형은 문자열(string)이어야 합니다', function() {
-    expect(string).to.be.a('string');
   });
   it('ageOfNextYear(1년 뒤 나이)은 age보다 1이 커야 합니다', function() {
     expect(ageOfNextYear).to.equal(age + 1);
@@ -51,7 +57,7 @@ describe('나의 소개', function() {
   }
   for (var key in parents) {
     it('부모님의 생신은 문자열(string)이어야 합니다', function() {
-      expect(parents[key].birthday).to.be.a('string');
+      expect(parents[key].birthday).to.be.a('string');``
     });
   }
 });

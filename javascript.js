@@ -1,4 +1,6 @@
-var name;
+var myName;
+
+var thisYear = '2017'
 
 var age;
 
@@ -42,9 +44,10 @@ var parents = {
   }
 };
 
-//아래 부분은 고치지 마세요.
-var aboutMe = `나의 이름은 ${name}다. 
-  올해 나이는 ${age}이다.
+// 아래 부분은 고치지 마세요.
+var aboutMe = `나의 소개
+  나의 이름은 ${myName}다. 
+  올해는 ${thisYear}년 이고 나의 나이는 ${age}이다.
   내년에는 ${ageOfNextYear}이고 10년 뒤에는 ${ageOfNext10Years}다.
   현재 결혼은 ${isMarried === true ? '' : isMarried === false ? '안' : '?'}했다.
   나에게는 ${Array.isArray(friendList) ? friendList.length : 0}명의 친구들이 있다.
