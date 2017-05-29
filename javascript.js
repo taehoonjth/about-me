@@ -1,4 +1,4 @@
-var myName;
+var myName = 'ㅋ';
 
 var thisYear = '2017'
 

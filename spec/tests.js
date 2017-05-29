@@ -2,8 +2,8 @@ describe('나의 소개', function() {
   it('myName의 데이터 형은 문자열(string)이어야 합니다', function() {
     expect(myName).to.be.a('string');
   });
-  it('myName의 길이는 0 보다 커야 합니다.', function() {
-    expect(myName).to.not.lengthOf(0);
+  it('myName의 길이는 1 보다 커야 합니다.', function() {
+    expect(myName).to.have.length.above(1);
   }); 
   it('thisYear의 데이터 형은 숫자(number)이어야 합니다', function() {
     expect(thisYear).to.be.a('number');
