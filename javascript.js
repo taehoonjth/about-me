@@ -19,7 +19,7 @@ if (isMarried) {
   }
 }
 
-var friendList = ['영희', '순이', '촬스'];
+var friendList = ['영희', '순이', '촬스', '경식'];
 
 var attachArrayElements = function(array) {
   var sum = '';
