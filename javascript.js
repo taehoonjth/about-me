@@ -13,9 +13,9 @@ var isMarried = false;
 if (isMarried) {
   var spouseName;
 } else {
-  var hasBoyOrGirlFriend = false;
+  var hasBoyOrGirlFriend = true;
   if (hasBoyOrGirlFriend) {
-    var BoyOrGirlFriendName;
+    var BoyOrGirlFriendName = '고혜미';
   }
 }
 
@@ -24,7 +24,8 @@ var friendList = ['영희', '순이', '촬스', '경식'];
 var attachArrayElements = function(array) {
   var sum = '';
 
-  //아래 for loop을 활용해 첫 번째 인자로 받은 array에 있는 요소들을 한 칸씩 띄어 하나의 문자열로 만듭니다.
+  //아래 for loop을 활용해 이 함수가 첫 번째 인자로 받은 배열에 있는 요소들을 한 칸씩 띄어 하나의 문자열로 만듭니다. 
+  //예를 들어 ['수지', '설현', '토르'] --> '수지, 설현, 토르'
   for (var i = 0; i < array.length; i++) {
     sum += ', ' + array[i];
   }
