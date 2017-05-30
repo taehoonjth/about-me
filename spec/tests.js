@@ -26,7 +26,7 @@ describe('나의 소개', function() {
     });   
   } else {
     it('결혼 안했다면 hasBoyOrGirlFriend(이성친구 여부)의 데이터 형은 불리언(boolean)이어야 합니다', function() {
-      expect(hasBoyOrGirlFriend).to.be.a('string');
+      expect(hasBoyOrGirlFriend).to.be.a('boolean');
     }); 
   }
   if (hasBoyOrGirlFriend) {
