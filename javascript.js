@@ -1,49 +1,49 @@
-var myName = '김철수';
+var myName;
 
-var thisYear = 2017;
+var thisYear = '2017';
 
-var age = 25;
+var age;
 
-var ageOfNextYear = age + 1;
+var ageOfNextYear;
 
-var ageOfNext10Years = age + 10;
+var ageOfNext10Years;
 
-var isMarried = false;
+var isMarried;
 
 if (isMarried) {
   var spouseName;
 } else {
-  var hasBoyOrGirlFriend = true;
+  var hasBoyOrGirlFriend;
   if (hasBoyOrGirlFriend) {
-    var BoyOrGirlFriendName = '고혜미';
+    var BoyOrGirlFriendName;
   }
 }
 
-var friendList = ['영희', '순이', '촬스', '경식'];
+var friendList;
 
 var attachArrayElements = function(array) {
-  var sum = '';
+  var sum;
 
   //아래 for loop을 활용해 이 함수가 첫 번째 인자로 받은 배열에 있는 요소들을 한 칸씩 띄어 하나의 문자열로 만듭니다. 
   //예를 들어 ['수지', '설현', '토르'] --> '수지, 설현, 토르'
   for (var i = 0; i < array.length; i++) {
-    sum += ', ' + array[i];
+    
   }
 
   return sum;
 };
 
 //위의 attachArrayElements함수를 활용하세요
-var friendNames = attachArrayElements(friendList);
+var friendNames;
 
 var parents = {
   mother: {
-    name: '김갑자',
-    birthday: '1965.12.11'
+    name: null,
+    birthday: null
   },
   father: {
-    name: '김순자',
-    birthday: '1968.10.15'
+    name: null,
+    birthday: null
   }
 };
 
