@@ -1,6 +1,11 @@
 var myName;
 
-var thisYear = '2017';
+var thisYear = '2018';
+//위처럼 thisYear을 직접 입력해도 좋지만 2019년이 됐을 때는 어떻게 하죠?
+//그래서 그 문제를 해결하기 위해 아래 처럼 프로그래밍으로 처리할 수도 있습니다.
+//아직 아래 코드가 이해 안가셔도 괜찮습니다.
+// var thisYear = new Date().getFullYear();
+
 
 var age;
 
@@ -21,11 +26,13 @@ if (isMarried) {
 
 var friendList;
 
+
+
+//아래 함수는 for loop을 활용해 함수가 인자로 받은 배열에 있는 요소들을 콤마를 붙인 후 한 칸씩 띄어 하나의 문자열로 만듭니다. 
+//예를 들어 ['철수', '영희', '토르'] --> '철수, 영희, 토르'
 var attachArrayElements = function(array) {
   var sum;
 
-  //아래 for loop을 활용해 이 함수가 첫 번째 인자로 받은 배열에 있는 요소들을 한 칸씩 띄어 하나의 문자열로 만듭니다. 
-  //예를 들어 ['수지', '설현', '토르'] --> '수지, 설현, 토르'
   for (var i = 0; i < array.length; i++) {
     
   }
@@ -46,6 +53,8 @@ var parents = {
     birthday: null
   }
 };
+
+
 
 // 아래 부분은 고치지 마세요.
 var aboutMe = `나의 이름은 ${myName}(이)다. 
